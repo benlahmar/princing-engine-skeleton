@@ -1,4 +1,10 @@
-
 package com.company.pricing.domain.model;
 
-public enum PromotionScope { VALUE1, VALUE2 }
+/**
+ * Périmètre d'application d'une promotion.
+ */
+public enum PromotionScope {
+    ORDER,
+    PRODUCT,
+    CATEGORY
+}

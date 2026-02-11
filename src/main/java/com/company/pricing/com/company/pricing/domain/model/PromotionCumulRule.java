@@ -1,4 +1,9 @@
-
 package com.company.pricing.domain.model;
 
-public enum PromotionCumulRule { VALUE1, VALUE2 }
+/**
+ * Règle de cumul d'une promotion.
+ */
+public enum PromotionCumulRule {
+    CUMULABLE,
+    EXCLUSIVE
+}
